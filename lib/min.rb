@@ -8,5 +8,5 @@ groceries = {
 }
 
 def get_the_min(groceries)
-  groceries.min
+  groceries.min.start_with_(b)
 end
